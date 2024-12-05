@@ -1,0 +1,3 @@
+# Unhandled IllegalArgumentException in Scala
+This repository demonstrates a common error in Scala programming: failing to handle exceptions properly. The example showcases a class with a setter method that throws an `IllegalArgumentException` under certain conditions. However, the main application code does not include a `try-catch` block to handle this exception, leading to a program crash when the exception occurs.
+The solution demonstrates the appropriate use of `try-catch` to gracefully handle the exception and prevent program termination.  This is crucial for robust and reliable applications.
